@@ -34,82 +34,25 @@
         <span>{{ .subtitle | markdownify }}</span>
         {{- partial "social_icons.html" site.Params.socialIcons -}}
 
-
-        </head>
-        <body class="list" id="top">
-        <br>
-
-        <h2>
-            Research
-        </h2>
-        <br>
-        </header>
-
-        <script type="application/ld+json">
-            {
-              "@context": "https://schema.org",
-              "@type": "BreadcrumbList",
-              "itemListElement": [
-                {
-                  "@type": "ListItem",
-                  "position":  1 ,
-                  "name": "Papers",
-                  "item": "https://rishub-tamirisa.github.io/research/papers/"
-                }
-              ]
-            }
-            </script>
-        
-            
-            <!-- Towards Robust Unlearning -->
-            <article class="post-entry"> 
-                <figure class="entry-cover">
-                    <img loading="lazy" src="https://rishub-tamirisa.github.io/research/papers/paper1/paper1.png" alt="Image caption">
-                </figure>
-                <header class="entry-header">
-                    <h2>Toward Robust Unlearning for LLMs
-                    </h2>
-                    <p1><u><strong>Rishub Tamirisa</strong></u>, Bhrugu Bharathi, Andy Zhou, Bo Li, Mantas Mazeika</p1>
-                    <br>
-                    <p2>ICLR 2024 Workshop on Secure and Trustworthy Large Language Models 2024</p2> 
-                </header>
-                <a class="entry-link" aria-label="post link to Paper Title 1" href="https://rishub-tamirisa.github.io/research/papers/paper1/"></a>
-            </article>
-            
-            <!-- WMDP -->
-            <article class="post-entry"> 
-            <figure class="entry-cover">
-                    <img loading="lazy" src="https://rishub-tamirisa.github.io/research/papers/paper2/paper2.png" alt="Image caption">
-            </figure>
-            <header class="entry-header">
-                <h2>The WMDP Benchmark: Measuring and Reducing Malicious Use With Unlearning
-                </h2>
-                <p1>Nathaniel Li, Alexander Pan, Anjali Gopal, Summer Yue, Daniel Berrios, Alice Gatti, Justin D. Li, Ann-Kathrin Dombrowski, Shashwat Goel, Long Phan, Gabriel Mukobi, Nathan Helm-Burger, Rassin Lababidi, Lennart Justen, Andrew B. Liu, Michael Chen, Isabelle Barrass, Oliver Zhang, Xiaoyuan Zhu, <u><strong>Rishub Tamirisa</strong></u>, Bhrugu Bharathi, Adam Khoja, Ariel Herbert-Voss, Cort B. Breuer, Andy Zou, Mantas Mazeika, Zifan Wang, Palash Oswal, Weiran Liu, Adam A. Hunt, Justin Tienken-Harder, Kevin Y. Shih, Kemper Talley, John Guan, Russell Kaplan, Ian Steneker, David Campbell, Brad Jokubaitis, Alex Levinson, Jean Wang, William Qian, Kallol Krishna Karmakar, Steven Basart, Stephen Fitz, Mindy Levine, Ponnurangam Kumaraguru, Uday Tupakula, Vijay Varadharajan, Yan Shoshitaishvili, Jimmy Ba, Kevin M. Esvelt, Alexandr Wang, Dan Hendrycks</p1>
-                <br>
-                <p2>Preprint. 2024.</p2> 
-            </header>
-            <a class="entry-link" aria-label="post link to Paper Title 2" href="https://www.wmdp.ai/"></a>
-            </article>
-
-            <!-- FedSelect -->
-            <article class="post-entry"> 
-            <figure class="entry-cover">
-                    <img loading="lazy" src="https://rishub-tamirisa.github.io/research/papers/paper3/paper3.png" alt="Image caption">
-            </figure>
-            <header class="entry-header">
-                <h2>FedSelect: Personalized Federated Learning with Customized Selection of
-                    Parameters for Fine-Tuning
-                </h2>
-                <p1><u><strong>Rishub Tamirisa</strong></u>, Chulin Xie, Wenxuan Bao, Andy Zhou, Ron Arel, Aviv Shamsian</p1>
-                <br>
-                <p2>CVPR 2024, ICML 2023 FL</p2> 
-            </header>
-            <a class="entry-link" aria-label="post link to Paper Title 3" href="https://rishub-tamirisa.github.io/research/papers/paper3/"></a>
-            </article>
-
-        </main>
-        </body>
-        </html>
+        {{- with .buttons }}
+        <div class="buttons">
+            {{- range . }}
+            <a class="button" href="{{ trim .url " " }}" rel="noopener" title="{{ .name }}">
+                <span class="button-inner">
+                    {{ .name }}
+                    {{- if (findRE "://" .url) }}&nbsp;
+                    <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="14" width="14">
+                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+                        <path d="M15 3h6v6"></path>
+                        <path d="M10 14L21 3"></path>
+                    </svg>
+                    {{- end }}
+                </span>
+            </a>
+            {{- end }}
+        </div>
+        {{- end }}
     </div>
     {{- end}}
 </div>
