@@ -1,5 +1,5 @@
 baseURL: "https://pascalmichaillat.org/hugo-website/" 
-title: Prof. Name
+title: Rishub Tamirisa
 paginate: 20
 theme: PaperMod
 
@@ -14,20 +14,19 @@ menu:
         - name: Papers
           url: papers/
           weight: 1
-        - name: Courses
-          url: courses/
-          weight: 2
-        - name: Data
-          url: data/
-          weight: 3 
-        - name: Newsletter
-          url: https://pmichaillat.substack.com
-          weight: 4
+        # - name: Courses
+        #   url: courses/
+        #   weight: 2
+        # - name: Data
+        #   url: data/
+        #   weight: 3 
+        # - name: Newsletter
+        #   url: https://pmichaillat.substack.com
+        #   weight: 4
 
 params:
-    description: "I am a Professor of Subject at the University of Place. My research covers various topics.
-consequat."
-    author: Name
+    description: "I am a 4th undergraduate researcher at the University of Illinois at Urbana-Champaign, working on AI alignment, interpretability, and multimodal representation learning (ICML, CVPR, ICLR). My current research focuses on developing techniques to probe and edit the knowledge in large models, aiming to improve transparency and control. I am also interested in representation learning that combines language with other modalities for open-ended downstream use. Across these areas, my work strives to advance the reliability, safety, and general intelligence capabilities of AI systems."
+    author: Rishub Tamirisa
     # googleAnalyticsID: "G-XXXXX"
     DateFormat: "January 2006"
     defaultTheme: light
@@ -50,45 +49,48 @@ consequat."
     math: true
     profileMode:
           enabled: true
-          title: Prof. Namely Name
-          subtitle: "I am a Professor of Subject at the University of Place. I work on various topics. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo."
-          imageUrl: "picture.jpeg"
+          title: Rishub Tamirisa
+          subtitle: "I am a 4th-year undergraduate at the University of Illinois at Urbana-Champaign. My research interests are in AI alignment / (mechanistic) interpretability, multimodal representation learning, and privacy-preserving machine learning. I am advised by Dr. Heng Ji & Dr. Volodymyr Kindratenko. <br /><br /> 
+          
+          My current research focuses on developing robust knowledge editing/removal techniques in transformer LLMs, while ensuring benign capabilities can improve safely and reliably, as well as novel state-of-the-art methods for personalized federated learning. My work has been accepted at ICML, CVPR, and ICLR. <br /><br />
+          
+          I co-run the research group at [<u>Lapis Labs</u>](https://lapis.rocks) (prev. AI@UIUC), and am also a founding engineer at a Sequoia-backed AI startup, <u>[Mindy](https://mindy.com)</u>."
+          imageUrl: "pic2.png"
           imageWidth: 160
           imageHeight: 160
-          imageTitle: Prof. Name
-          buttons:
-            - name: Papers
-              url: papers/
-            - name: Courses
-              url: courses/
-            - name: Data
-              url: data/
-            - name: Newsletter
-              url: https://pmichaillat.substack.com
-            - name: Tags
-              url: tags/
-            - name: Archive
-              url: archive/
+          imageTitle: Rishub Tamirisa
+          # buttons:
+          #   - name: Papers
+          #     url: papers/
+            # - name: Courses
+            #   url: courses/
+            # - name: Data
+            #   url: data/
+            # - name: Newsletter
+            #   url: https://pmichaillat.substack.com
+            # - name: Tags
+            #   url: tags/
+            # - name: Archive
+            #   url: archive/
     socialIcons:
-        - name: CV
-          url: cv.pdf
+        # - name: CV
+        #   url: resume.pdf
         - name: Email
-          url: mailto:pascal.michaillat@gmail.com
-        - name: Location
-          url: location/
-        - name: Office Hours
-          url: officehours/
+          url: mailto:rishubt2@illinois.edu
+        # - name: Location
+        #   url: location/
+        # - name: Office Hours
+        #   url: officehours/
         - name: Google Scholar
-          url: https://scholar.google.com/citations?user=cL23w-4AAAAJ
-        - name: YouTube
-          url: https://www.youtube.com/@pmichaillat
+          url: https://scholar.google.com/citations?user=mwqUAxwAAAAJ&hl=en
+        # - name: YouTube
+        #   url: https://www.youtube.com/@pmichaillat
         - name: GitHub
-          url: https://github.com/pmichaillat
-        - name: Substack
-          url: https://pmichaillat.substack.com
+          url: https://github.com/rishub-tamirisa
+        - name: Linkedin
+          url: https://www.linkedin.com/in/rishubtamirisa/
         - name: Twitter
-          url: https://twitter.com/pmichaillat
-
+          url: https://twitter.com/rishub_t
     assets:
         disableHLJS: true
         disableScrollBarStyle: true
@@ -96,7 +98,7 @@ consequat."
         hiddenInList: false
         hiddenInSingle: true
     label:
-      text: "Prof. Name"
+      text: "Rishub Tamirisa"
       icon: favicon.ico
       iconHeight: 18
 
