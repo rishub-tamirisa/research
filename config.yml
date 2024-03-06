@@ -9,11 +9,11 @@ enableRobotsTXT: true
 taxonomies:
     tag: tags
 
-menu:
-    main:
-        - name: Papers
-          url: papers/
-          weight: 1
+# menu:
+#     main:
+        # - name: Papers
+        #   url: papers/
+        #   weight: 1
         # - name: Courses
         #   url: courses/
         #   weight: 2
