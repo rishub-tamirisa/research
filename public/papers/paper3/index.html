@@ -7,10 +7,10 @@
 <meta name="robots" content="noindex, nofollow">
 <title>FedSelect: Personalized Federated Learning with Customized Selection of Parameters for Fine-Tuning | Rishub Tamirisa</title>
 <meta name="keywords" content="">
-<meta name="description" content="Links Paper (CVPR 2024) (coming soon) Paper (ICML 2023 Workshop Ver.) Abstract Standard federated learning approaches suffer when client data distributions have sufficient heterogeneity. Recent methods addressed the client data heterogeneity issue via personalized federated learning (PFL) - a class of FL algorithms aiming to personalize learned global knowledge to better suit the clients&rsquo; local data distributions. Existing PFL methods usually decouple global updates in deep neural networks by performing personalization on particular layers (i.">
+<meta name="description" content="Links Paper (CVPR 2024) Paper (ICML 2023 Workshop Ver.) Abstract Standard federated learning approaches suffer when client data distributions have sufficient heterogeneity. Recent methods addressed the client data heterogeneity issue via personalized federated learning (PFL) - a class of FL algorithms aiming to personalize learned global knowledge to better suit the clients&rsquo; local data distributions. Existing PFL methods usually decouple global updates in deep neural networks by performing personalization on particular layers (i.">
 <meta name="author" content="Rishub Tamirisa, Chulin Xie, Wenxuan Bao, Andy Zhou, Ron Arel, Aviv Shamsian">
 <link rel="canonical" href="http://localhost:1313/hugo-website/papers/paper3/">
-<link crossorigin="anonymous" href="/hugo-website/assets/css/stylesheet.0578770b3541635f4c48090d6216eff936ca33d14c3f5cddbbb2550afee9c9d0.css" integrity="sha256-BXh3CzVBY19MSAkNYhbv&#43;TbKM9FMP1zdu7JVCv7pydA=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/hugo-website/assets/css/stylesheet.a4ce99d56107d4bccae885bfba1084ecdcd4cc16c66665d8b0686c8104d48218.css" integrity="sha256-pM6Z1WEH1LzK6IW/uhCE7NzUzBbGZmXYsGhsgQTUghg=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/hugo-website/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/hugo-website/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/hugo-website/favicon-32x32.png">
@@ -28,7 +28,7 @@
 
     </style>
 </noscript><meta property="og:title" content="FedSelect: Personalized Federated Learning with Customized Selection of Parameters for Fine-Tuning" />
-<meta property="og:description" content="Links Paper (CVPR 2024) (coming soon) Paper (ICML 2023 Workshop Ver.) Abstract Standard federated learning approaches suffer when client data distributions have sufficient heterogeneity. Recent methods addressed the client data heterogeneity issue via personalized federated learning (PFL) - a class of FL algorithms aiming to personalize learned global knowledge to better suit the clients&rsquo; local data distributions. Existing PFL methods usually decouple global updates in deep neural networks by performing personalization on particular layers (i." />
+<meta property="og:description" content="Links Paper (CVPR 2024) Paper (ICML 2023 Workshop Ver.) Abstract Standard federated learning approaches suffer when client data distributions have sufficient heterogeneity. Recent methods addressed the client data heterogeneity issue via personalized federated learning (PFL) - a class of FL algorithms aiming to personalize learned global knowledge to better suit the clients&rsquo; local data distributions. Existing PFL methods usually decouple global updates in deep neural networks by performing personalization on particular layers (i." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://localhost:1313/hugo-website/papers/paper3/" /><meta property="article:section" content="papers" />
 
@@ -36,7 +36,7 @@
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="FedSelect: Personalized Federated Learning with Customized Selection of Parameters for Fine-Tuning"/>
-<meta name="twitter:description" content="Links Paper (CVPR 2024) (coming soon) Paper (ICML 2023 Workshop Ver.) Abstract Standard federated learning approaches suffer when client data distributions have sufficient heterogeneity. Recent methods addressed the client data heterogeneity issue via personalized federated learning (PFL) - a class of FL algorithms aiming to personalize learned global knowledge to better suit the clients&rsquo; local data distributions. Existing PFL methods usually decouple global updates in deep neural networks by performing personalization on particular layers (i."/>
+<meta name="twitter:description" content="Links Paper (CVPR 2024) Paper (ICML 2023 Workshop Ver.) Abstract Standard federated learning approaches suffer when client data distributions have sufficient heterogeneity. Recent methods addressed the client data heterogeneity issue via personalized federated learning (PFL) - a class of FL algorithms aiming to personalize learned global knowledge to better suit the clients&rsquo; local data distributions. Existing PFL methods usually decouple global updates in deep neural networks by performing personalization on particular layers (i."/>
 
 
 <script type="application/ld+json">
@@ -65,12 +65,12 @@
   "@type": "BlogPosting",
   "headline": "FedSelect: Personalized Federated Learning with Customized Selection of Parameters for Fine-Tuning",
   "name": "FedSelect: Personalized Federated Learning with Customized Selection of Parameters for Fine-Tuning",
-  "description": "Links Paper (CVPR 2024) (coming soon) Paper (ICML 2023 Workshop Ver.) Abstract Standard federated learning approaches suffer when client data distributions have sufficient heterogeneity. Recent methods addressed the client data heterogeneity issue via personalized federated learning (PFL) - a class of FL algorithms aiming to personalize learned global knowledge to better suit the clients\u0026rsquo; local data distributions. Existing PFL methods usually decouple global updates in deep neural networks by performing personalization on particular layers (i.",
+  "description": "Links Paper (CVPR 2024) Paper (ICML 2023 Workshop Ver.) Abstract Standard federated learning approaches suffer when client data distributions have sufficient heterogeneity. Recent methods addressed the client data heterogeneity issue via personalized federated learning (PFL) - a class of FL algorithms aiming to personalize learned global knowledge to better suit the clients\u0026rsquo; local data distributions. Existing PFL methods usually decouple global updates in deep neural networks by performing personalization on particular layers (i.",
   "keywords": [
     
   ],
-  "articleBody": " Links Paper (CVPR 2024) (coming soon) Paper (ICML 2023 Workshop Ver.) Abstract Standard federated learning approaches suffer when client data distributions have sufficient heterogeneity. Recent methods addressed the client data heterogeneity issue via personalized federated learning (PFL) - a class of FL algorithms aiming to personalize learned global knowledge to better suit the clients’ local data distributions. Existing PFL methods usually decouple global updates in deep neural networks by performing personalization on particular layers (i.e. classifier heads) and global aggregation for the rest of the network. However, preselecting network layers for personalization may result in suboptimal storage of global knowledge. In this work, we propose FedSelect, a novel PFL algorithm inspired by the iterative subnetwork discovery procedure used for the Lottery Ticket Hypothesis. FedSelect incrementally expands subnetworks to personalize client parameters, concurrently conducting global aggregations on the remaining parameters. This approach enables the personalization of both client parameters and subnetwork structure during the training process. Finally, we show that FedSelect outperforms recent state-of-the-art PFL algorithms under challenging client data heterogeneity settings and demonstrates robustness to various real-world distributional shifts.\nFigure 1: Illustration of the FEDSELECT algorithm ",
-  "wordCount" : "186",
+  "articleBody": " Links Paper (CVPR 2024) Paper (ICML 2023 Workshop Ver.) Abstract Standard federated learning approaches suffer when client data distributions have sufficient heterogeneity. Recent methods addressed the client data heterogeneity issue via personalized federated learning (PFL) - a class of FL algorithms aiming to personalize learned global knowledge to better suit the clients’ local data distributions. Existing PFL methods usually decouple global updates in deep neural networks by performing personalization on particular layers (i.e. classifier heads) and global aggregation for the rest of the network. However, preselecting network layers for personalization may result in suboptimal storage of global knowledge. In this work, we propose FedSelect, a novel PFL algorithm inspired by the iterative subnetwork discovery procedure used for the Lottery Ticket Hypothesis. FedSelect incrementally expands subnetworks to personalize client parameters, concurrently conducting global aggregations on the remaining parameters. This approach enables the personalization of both client parameters and subnetwork structure during the training process. Finally, we show that FedSelect outperforms recent state-of-the-art PFL algorithms under challenging client data heterogeneity settings and demonstrates robustness to various real-world distributional shifts.\nFigure 1: Illustration of the FEDSELECT algorithm ",
+  "wordCount" : "184",
   "inLanguage": "en",
   "datePublished": "0001-01-01T00:00:00Z",
   "dateModified": "0001-01-01T00:00:00Z",
@@ -158,9 +158,9 @@
   </header> 
   <div class="post-content"><hr>
 <h5 id="links">Links</h5>
-<!-- + [Paper (CVPR 2024)](https://arxiv.org/pdf/2306.13264.pdf) -->
 <ul>
-<li>Paper (CVPR 2024) (coming soon)</li>
+<li><a href="https://arxiv.org/pdf/2404.02478.pdf" target="_blank">Paper (CVPR 2024)</a>
+</li>
 <li><a href="https://arxiv.org/pdf/2306.13264.pdf" target="_blank">Paper (ICML 2023 Workshop Ver.)</a>
 </li>
 </ul>

@@ -33,8 +33,7 @@ author: "Rishub Tamirisa, Chulin Xie, Wenxuan Bao, Andy Zhou, Ron Arel, Aviv Sha
 ---
 
 ##### Links
-<!-- + [Paper (CVPR 2024)](https://arxiv.org/pdf/2306.13264.pdf) -->
-+ Paper (CVPR 2024) (coming soon)
++ [Paper (CVPR 2024)](https://arxiv.org/pdf/2404.02478.pdf)
 + [Paper (ICML 2023 Workshop Ver.)](https://arxiv.org/pdf/2306.13264.pdf)
 <!-- + [Project Page (with code & data)](https://www.wmdp.ai/) -->
 <!-- + [Online appendix](appendix2.pdf) -->

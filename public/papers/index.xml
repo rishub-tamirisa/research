@@ -12,7 +12,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/hugo-website/papers/paper3/</guid>
-      <description>Links Paper (CVPR 2024) (coming soon) Paper (ICML 2023 Workshop Ver.) Abstract Standard federated learning approaches suffer when client data distributions have sufficient heterogeneity. Recent methods addressed the client data heterogeneity issue via personalized federated learning (PFL) - a class of FL algorithms aiming to personalize learned global knowledge to better suit the clients&amp;rsquo; local data distributions. Existing PFL methods usually decouple global updates in deep neural networks by performing personalization on particular layers (i.</description>
+      <description>Links Paper (CVPR 2024) Paper (ICML 2023 Workshop Ver.) Abstract Standard federated learning approaches suffer when client data distributions have sufficient heterogeneity. Recent methods addressed the client data heterogeneity issue via personalized federated learning (PFL) - a class of FL algorithms aiming to personalize learned global knowledge to better suit the clients&amp;rsquo; local data distributions. Existing PFL methods usually decouple global updates in deep neural networks by performing personalization on particular layers (i.</description>
     </item>
     
     <item>
