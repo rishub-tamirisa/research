@@ -19,7 +19,7 @@ author: "Rishub Tamirisa, Bhrugu Bharathi, Andy Zhou, Bo Li, Mantas Mazeika "
 
 <!-- ##### Links -->
 
-<!-- + [Paper](paper1.pdf) -->
++ [Paper (ICLR 2024 Workshop Ver.)](https://openreview.net/pdf?id=4rPzaUF6Ej)
 <!-- + [Online appendix](appendix1.pdf) -->
 <!-- + [Code and data](https://github.com/pmichaillat/job-rationing) -->
 
