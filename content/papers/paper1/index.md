@@ -17,7 +17,7 @@ author: "Rishub Tamirisa, Bhrugu Bharathi, Andy Zhou, Bo Li, Mantas Mazeika "
 
 <!-- --- -->
 
-<!-- ##### Links -->
+##### Links
 
 + [Paper (ICLR 2024 Workshop Ver.)](https://openreview.net/pdf?id=4rPzaUF6Ej)
 <!-- + [Online appendix](appendix1.pdf) -->
