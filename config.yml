@@ -50,7 +50,7 @@ params:
     profileMode:
           enabled: true
           title: Rishub Tamirisa
-          subtitle: "I am a 4th-year undergraduate at the University of Illinois at Urbana-Champaign. My research interests are in AI alignment and capabilities, multimodal learning, and privacy-preserving machine learning. <br /><br /> 
+          subtitle: "I am a 4th-year undergraduate at the University of Illinois at Urbana-Champaign. I'm interested in research toward improving both AI alignment and capabilities, as well as multimodal learning and privacy-preserving machine learning. <br /><br /> 
           
           My current research focuses on developing robust knowledge editing/removal techniques in transformer LLMs, while ensuring benign/helpful capabilities can improve safely and reliably. I have also introduced novel state-of-the-art methods for personalized federated learning. My work has been accepted at ICML, CVPR, and ICLR.<br /><br />
           
