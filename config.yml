@@ -52,7 +52,7 @@ params:
           title: Rishub Tamirisa
           subtitle: "I am a 4th-year undergraduate at the University of Illinois at Urbana-Champaign. I'm interested in research toward improving both AI capabilities and alignment, as well as multimodal learning and privacy-preserving machine learning. <br /><br /> 
           
-          My current research focuses on developing robust safeguards in transformer LLMs, while ensuring benign/helpful capabilities can improve safely and reliably. I have also introduced novel state-of-the-art methods for personalized federated learning. My work has been accepted at ICML, CVPR, and ICLR, and featured in WIRED.<br /><br />
+          My current research focuses on developing robust safeguards in transformer LLMs, while ensuring benign/helpful capabilities can improve safely and reliably. I have also introduced novel state-of-the-art methods for personalized federated learning. My work has been accepted at ICML, CVPR, and ICLR; also featured in WIRED.<br /><br />
           
           I co-run a research organization called [<u>Lapis Labs</u>](https://lapis.rocks) (prev. AI@UIUC), and am also a founding engineer at a Sequoia-backed AI startup, [<u>Mindy Group</u>](https://mindy.com). I also previously worked at NASA."
           imageUrl: "pic2.png"
