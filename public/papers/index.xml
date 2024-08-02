@@ -16,6 +16,15 @@
     </item>
     
     <item>
+      <title>Tamper-Resistant Safeguards for Open-Weight LLMs</title>
+      <link>http://localhost:1313/hugo-website/papers/paper4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hugo-website/papers/paper4/</guid>
+      <description>Links Paper (arxiv) Abstract Rapid advances in the capabilities of large language models (LLMs) have raised widespread concerns regarding their potential for malicious use. Open-weight LLMs present unique challenges, as existing safeguards lack robustness to tampering attacks that modify model weights. For example, recent works have demonstrated that refusal and unlearning safeguards can be trivially removed with a few steps of fine-tuning. These vulnerabilities necessitate new approaches for enabling the safe release of open-weight LLMs.</description>
+    </item>
+    
+    <item>
       <title>The WMDP Benchmark: Measuring and Reducing Malicious Use With Unlearning</title>
       <link>http://localhost:1313/hugo-website/papers/paper2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
