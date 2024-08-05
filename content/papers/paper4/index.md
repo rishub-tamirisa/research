@@ -33,7 +33,7 @@ author: "Rishub Tamirisa, Bhrugu Bharathi, Long Phan, Alice Gatti, Tarun Suresh,
 
 ##### Links
 + [Paper (arxiv)](https://arxiv.org/abs/2408.00761)
-<!-- + [Project Page (with code & data)](https://www.wmdp.ai/) -->
++ [Project Page](https://www.tamper-resistant-safeguards.com/)
 <!-- + [Online appendix](appendix2.pdf) -->
 
 ---
