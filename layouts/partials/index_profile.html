@@ -69,7 +69,7 @@
                 <!-- WMDP TIME Article -->
                 <tr> <td style="padding-right:20px;font-weight:600;">May 1st, 2024.</td> <td style="font-weight:400;">WMDP is accepted at <i>ICML 2024</i>. </td> </tr> 
                 <!-- WMDP TIME Article -->
-                <tr> <td style="padding-right:20px;font-weight:600;">March 5th, 2024.</td> <td style="font-weight:400;">WMDP is featured in <i>TIME</i>. <u><a href="https://time.com/6878893/ai-artificial-intelligence-dangerous-knowledge/">article</a></u></td> </tr> 
+                <tr> <td style="padding-right:20px;font-weight:600;">March 5th, 2024.</td> <td style="font-weight:400;">WMDP is featured in <i>TIME</i>. <u><a href="https://time.com/6878893/ai-artificial-intelligence-dangerous-knowledge/">article.</a></u></td> </tr> 
                 <!-- Unlearning ICLR 2024 Workshop -->
                 <tr> <td style="padding-right:20px;font-weight:600;">March 4th, 2024.</td> <td style="font-weight:400;">Our work on Robust Unlearning is accepted at SeT LLM @ <i>ICLR 2024.</i></td> </tr> 
                 <!-- FedSelect CVPR 2024 -->
@@ -78,7 +78,7 @@
                 <!-- Mindy 6M -->
                 <tr> <td style="padding-right:20px;font-weight:600;">February 13th, 2024.</td> <td style="font-weight:400;">Announcing our $6M seed round and the launch of Mindy. <u><a href="https://mindy.com/blog/funding-announcement">blog post.</a></u></td> </tr> 
                 <!-- Google Research Talk -->
-                <tr> <td style="padding-right:20px;font-weight:600;">October 12th, 2023.</td> <td style="font-weight:400;">I gave a talk internally at Google Research. <u><a href="https://www.linkedin.com/feed/update/urn:li:activity:7118320475788750848/">linkedin post.</a></u></td> </tr> 
+                <tr> <td style="padding-right:20px;font-weight:600;">October 12th, 2023.</td> <td style="font-weight:400;">I gave a talk internally at Google Research. <u><a href="https://www.linkedin.com/feed/update/urn:li:activity:7118320475788750848/">post.</a></u></td> </tr> 
                 <!-- FedSelect ICML 2023 -->
                 <tr> <td style="padding-right:20px;font-weight:600;">June 19th, 2023.</td> <td style="font-weight:400;">FedSelect is accepted at FL @ <i>ICML 2023</i>.</td> </tr>
             </table> 
@@ -110,82 +110,163 @@
             </script> -->
 
             <!-- Tamper-Resistant Safeguards -->
+            <!-- Define reusable styles once -->
+            <style>
+                .details-content {
+                    opacity: 1;
+                    max-height: 500px;
+                    overflow: hidden;
+                    transition: max-height 0.5s ease-out;
+                }
+                
+                details[open] .details-content {
+                    opacity: 1;
+                    max-height: 500px;
+                }
+
+                .details-content figure {
+                    opacity: 1;
+                    transition: opacity 0.5s ease-in;
+                }
+
+                details[open] .details-content figure {
+                    opacity: 1;
+                    transition: opacity 0.5s ease-in;
+                }
+
+                .summary-header {
+                    display: flex;
+                    align-items: flex-start;
+                    gap: 16px;
+                }
+
+                .dropdown-icon {
+                    font-size: 0.8em;
+                    color: #666;
+                    transition: transform 0.3s ease;
+                    margin-top: 8px;
+                    flex-shrink: 0;
+                }
+
+                details[open] .dropdown-icon {
+                    transform: rotate(90deg);
+                }
+
+                .entry-header {
+                    flex-grow: 1;
+                }
+            </style>
+
+            <!-- Tamper-Resistant Safeguards -->
             <article class="post-entry">
-                <figure class="entry-cover">
-                    <img loading="lazy" src="https://rishub-tamirisa.github.io/research/papers/paper4/TRS.png"
-                        alt="Image caption">
-                </figure>
-                <header class="entry-header">
-                    <h2>Tamper-Resistant Safeguards for Open-Weight LLMs
-                    </h2>
-                    <p1><u><strong>Rishub Tamirisa</strong></u>*, Bhrugu Bharathi*, Long Phan, Alice Gatti, Tarun Suresh, Maxwell Lin, Justin Wang, Rowan Wang, Ron Arel, Andy Zou, Dawn Song, Bo Li, Dan Hendrycks, Mantas Mazeika</p1>
-                    <br>
-                    <p2><span style="color: red;">ICLR 2025</span></p2>
-                </header>
-                <a class="entry-link" aria-label="post link to Paper Title 1"
-                    href="https://rishub-tamirisa.github.io/research/papers/paper4/"></a>
+                <details open>
+                    <summary style="cursor: pointer; list-style: none;">
+                        <div class="summary-header">
+                            <span class="dropdown-icon">▶</span>
+                            <header class="entry-header">
+                                <h2><span style="color: rgb(34, 34, 34);">Tamper-Resistant Safeguards for Open-Weight LLMs</span>
+                                </h2>
+                                <p1><u><strong>Rishub Tamirisa</strong></u>*, Bhrugu Bharathi*, Long Phan, Alice Gatti, Tarun Suresh, Maxwell Lin, Justin Wang, Rowan Wang, Ron Arel, Andy Zou, Dawn Song, Bo Li, Dan Hendrycks, Mantas Mazeika</p1>
+                                <br>
+                                <p2><span style="color: rgb(0, 162, 255);">ICLR 2025</span> | <u><a href="https://arxiv.org/abs/2408.00761">arxiv</a></u> | <u><a href="https://www.wired.com/story/center-for-ai-safety-open-source-llm-safeguards/">wired</a></u> | <u><a href="https://github.com/rishub-tamirisa/tamper-resistance">code</a></u> | <u><a href="https://www.tamper-resistant-safeguards.com/">site</a></u></p2>
+                            </header>
+                        </div>
+                    </summary>
+                    <div class="details-content">
+                        <figure class="entry-cover">
+                            <img loading="lazy" src="https://rishub-tamirisa.github.io/research/papers/paper4/TRS.png"
+                                alt="Image caption">
+                        </figure>
+                    </div>
+                </details>
             </article>
             
             <!-- Towards Robust Unlearning -->
-            <article class="post-entry"> 
-                <figure class="entry-cover">
-                    <img loading="lazy" src="https://rishub-tamirisa.github.io/research/papers/paper1/paper1.png" alt="Image caption">
-                </figure>
-                <header class="entry-header">
-                    <h2>Toward Robust Unlearning for LLMs
-                    </h2>
-                    <p1><u><strong>Rishub Tamirisa</strong></u>*, Bhrugu Bharathi*, Andy Zhou, Bo Li, Mantas Mazeika</p1>
-                    <br>
-                    <p2>Secure and Trustworthy LLMs @ <span style="color: red;">ICLR 2024</span></p2> 
-                </header>
-                <a class="entry-link" aria-label="post link to Paper Title 1" href="https://rishub-tamirisa.github.io/research/papers/paper1/"></a>
+            <article class="post-entry">
+                <details open>
+                    <summary style="cursor: pointer; list-style: none;">
+                        <div class="summary-header">
+                            <span class="dropdown-icon">▶</span>
+                            <header class="entry-header">
+                                <h2>Toward Robust Unlearning for LLMs</h2>
+                                <p1><u><strong>Rishub Tamirisa</strong></u>*, Bhrugu Bharathi*, Andy Zhou, Bo Li, Mantas Mazeika</p1>
+                                <br>
+                                <p2>Secure and Trustworthy LLMs @ <span style="color: rgb(0, 162, 255);">ICLR 2024</span> | <u><a href="https://openreview.net/pdf?id=4rPzaUF6Ej">paper</a></u></p2>
+                            </header>
+                        </div>
+                    </summary>
+                    <div class="details-content">
+                        <figure class="entry-cover">
+                            <img loading="lazy" src="https://rishub-tamirisa.github.io/research/papers/paper1/paper1.png" alt="Image caption">
+                        </figure>
+                    </div>
+                </details>
             </article>
             
             <!-- FedSelect -->
-            <article class="post-entry"> 
-            <figure class="entry-cover">
-                    <img loading="lazy" src="https://rishub-tamirisa.github.io/research/papers/paper3/paper3.png" alt="Image caption">
-            </figure>
-            <header class="entry-header">
-                <h2>FedSelect: Personalized Federated Learning with Customized Selection of
-                    Parameters for Fine-Tuning
-                </h2>
-                <p1><u><strong>Rishub Tamirisa</strong></u>, Chulin Xie, Wenxuan Bao, Andy Zhou, Ron Arel, Aviv Shamsian</p1>
-                <br>
-                <p2><span style="color: red;">CVPR 2024</span></p2> 
-            </header>
-            <a class="entry-link" aria-label="post link to Paper Title 3" href="https://rishub-tamirisa.github.io/research/papers/paper3/"></a>
+            <article class="post-entry">
+                <details open>
+                    <summary style="cursor: pointer; list-style: none;">
+                        <div class="summary-header">
+                            <span class="dropdown-icon">▶</span>
+                            <header class="entry-header">
+                                <h2>FedSelect: Personalized Federated Learning with Customized Selection of Parameters for Fine-Tuning</h2>
+                                <p1><u><strong>Rishub Tamirisa</strong></u>, Chulin Xie, Wenxuan Bao, Andy Zhou, Ron Arel, Aviv Shamsian</p1>
+                                <br>
+                                <p2><span style="color: rgb(0, 162, 255);">CVPR 2024</span> | <u><a href="https://arxiv.org/abs/2404.02478">arxiv</a></u> | <u><a href="https://github.com/lapisrocks/fedselect">code</a></u></p2>
+                            </header>
+                        </div>
+                    </summary>
+                    <div class="details-content">
+                        <figure class="entry-cover">
+                            <img loading="lazy" src="https://rishub-tamirisa.github.io/research/papers/paper3/paper3.png" alt="Image caption">
+                        </figure>
+                    </div>
+                </details>
             </article>
 
             <!-- WMDP -->
-            <article class="post-entry"> 
-            <figure class="entry-cover">
-                    <img loading="lazy" src="https://rishub-tamirisa.github.io/research/papers/paper2/paper2.png" alt="Image caption">
-            </figure>
-            <header class="entry-header">
-                <h2>The WMDP Benchmark: Measuring and Reducing Malicious Use With Unlearning
-                </h2>
-                <p1>Nathaniel Li, Alexander Pan, Anjali Gopal, Summer Yue, Daniel Berrios, Alice Gatti, Justin D. Li, Ann-Kathrin Dombrowski, Shashwat Goel, Long Phan, Gabriel Mukobi, Nathan Helm-Burger, Rassin Lababidi, Lennart Justen, Andrew B. Liu, Michael Chen, Isabelle Barrass, Oliver Zhang, Xiaoyuan Zhu, <u><strong>Rishub Tamirisa</strong></u>, Bhrugu Bharathi, Adam Khoja, Ariel Herbert-Voss, Cort B. Breuer, Andy Zou, Mantas Mazeika, Zifan Wang, Palash Oswal, Weiran Liu, Adam A. Hunt, Justin Tienken-Harder, Kevin Y. Shih, Kemper Talley, John Guan, Russell Kaplan, Ian Steneker, David Campbell, Brad Jokubaitis, Alex Levinson, Jean Wang, William Qian, Kallol Krishna Karmakar, Steven Basart, Stephen Fitz, Mindy Levine, Ponnurangam Kumaraguru, Uday Tupakula, Vijay Varadharajan, Yan Shoshitaishvili, Jimmy Ba, Kevin M. Esvelt, Alexandr Wang, Dan Hendrycks</p1>
-                <br>
-                <p2><span style="color: red;">ICML 2024</span></p2> 
-            </header>
-            <a class="entry-link" aria-label="post link to Paper Title 2" href="https://www.wmdp.ai/"></a>
+            <article class="post-entry">
+                <details open>
+                    <summary style="cursor: pointer; list-style: none;">
+                        <div class="summary-header">
+                            <span class="dropdown-icon">▶</span>
+                            <header class="entry-header">
+                                <h2>The WMDP Benchmark: Measuring and Reducing Malicious Use With Unlearning</h2>
+                                <p1>Nathaniel Li*, Alexander Pan*, Anjali Gopal, Summer Yue, Daniel Berrios, Alice Gatti, Justin D. Li, Ann-Kathrin Dombrowski, Shashwat Goel, Long Phan, Gabriel Mukobi, Nathan Helm-Burger, Rassin Lababidi, Lennart Justen, Andrew B. Liu, Michael Chen, Isabelle Barrass, Oliver Zhang, Xiaoyuan Zhu, <u><strong>Rishub Tamirisa</strong></u>, Bhrugu Bharathi, Adam Khoja, Ariel Herbert-Voss, Cort B. Breuer, Andy Zou, Mantas Mazeika, Zifan Wang, Palash Oswal, Weiran Liu, Adam A. Hunt, Justin Tienken-Harder, Kevin Y. Shih, Kemper Talley, John Guan, Russell Kaplan, Ian Steneker, David Campbell, Brad Jokubaitis, Alex Levinson, Jean Wang, William Qian, Kallol Krishna Karmakar, Steven Basart, Stephen Fitz, Mindy Levine, Ponnurangam Kumaraguru, Uday Tupakula, Vijay Varadharajan, Yan Shoshitaishvili, Jimmy Ba, Kevin M. Esvelt, Alexandr Wang, Dan Hendrycks</p1>
+                                <br>
+                                <p2><span style="color: rgb(0, 162, 255);">ICML 2024</span> | <u><a href="https://arxiv.org/abs/2403.03218">arxiv</a></u> | <u><a href="https://time.com/6878893/ai-artificial-intelligence-dangerous-knowledge/">time</a></u> | <u><a href="https://www.safe.ai/blog/wmdp-benchmark">blog</a></u> | <u><a href="https://www.wmdp.ai/">site</a></u></p2>
+                            </header>
+                        </div>
+                    </summary>
+                    <div class="details-content">
+                        <figure class="entry-cover">
+                            <img loading="lazy" src="https://rishub-tamirisa.github.io/research/papers/paper2/paper2.png" alt="Image caption">
+                        </figure>
+                    </div>
+                </details>
             </article>
 
-            <!-- FedSelect -->
-            <article class="post-entry"> 
-            <figure class="entry-cover">
-                    <img loading="lazy" src="https://rishub-tamirisa.github.io/research/papers/paper3/paper3wv2.png" alt="Image caption" style="width: 15vw; min-width: 100px;">
-
-            </figure>
-            <header class="entry-header">
-                <h2>FedSelect: Customized Selection of Parameters for Fine-Tuning during Personalized Federated Learning
-                </h2>
-                <p1><u><strong>Rishub Tamirisa</strong></u>, John Won, Chengjun Lu, Ron Arel, Andy Zhou</p1>
-                <br>
-                <p2>Federated Learning @ <span style="color: red;">ICML 2023</span></p2> 
-            </header>
-            <a class="entry-link" aria-label="post link to Paper Title 3" href="https://rishub-tamirisa.github.io/research/papers/paper3/"></a>
+            <!-- FedSelect ICML -->
+            <article class="post-entry">
+                <details open>
+                    <summary style="cursor: pointer; list-style: none;">
+                        <div class="summary-header">
+                            <span class="dropdown-icon">▶</span>
+                            <header class="entry-header">
+                                <h2>FedSelect: Customized Selection of Parameters for Fine-Tuning during Personalized Federated Learning</h2>
+                                <p1><u><strong>Rishub Tamirisa</strong></u>, John Won, Chengjun Lu, Ron Arel, Andy Zhou</p1>
+                                <br>
+                                <p2>Federated Learning @ <span style="color: rgb(0, 162, 255);">ICML 2023</span> | <u><a href="https://arxiv.org/abs/2306.13264">arxiv</a></u></p2>
+                            </header>
+                        </div>
+                    </summary>
+                    <div class="details-content">
+                        <figure class="entry-cover">
+                            <img loading="lazy" src="https://rishub-tamirisa.github.io/research/papers/paper3/paper3wv2.png" alt="Image caption" style="width: 15vw; min-width: 100px;">
+                        </figure>
+                    </div>
+                </details>
             </article>
 
         </main>

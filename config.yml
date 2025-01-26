@@ -50,9 +50,11 @@ params:
     profileMode:
           enabled: true
           title: Rishub Tamirisa
-          subtitle: "I recently graduated from the University of Illinois at Urbana-Champaign, where I worked on developing adversarially robust safeguards in transformer LLMs, and ensuring benign/helpful capabilities can improve safely and reliably. I have also introduced novel state-of-the-art methods for personalized federated learning. My work has been accepted at ICML, CVPR, and ICLR; also featured in WIRED.<br /><br />
+          subtitle: "I recently graduated from the University of Illinois at Urbana-Champaign. I'm currently working on research toward improving both AI capabilities and alignment. <br /><br />
+          
+        
+           My prior work has focused on developing adversarially robust safeguards for LLMs, and ensuring benign/helpful capabilities can improve safely and reliably. I have also introduced novel state-of-the-art methods for personalized federated learning. My work has been accepted at ICML, CVPR, and ICLR; also featured in *Wired*.<br /><br />
 
-          I'm currently working on research toward improving both AI capabilities and alignment. <br /><br /> 
           
           I co-run [<u>Lapis Labs,</u>](https://lapis.rocks) a student-led research group, and was a founding engineer at a Sequoia-backed AI startup, [<u>Mindy Group</u>](https://mindy.com). I also previously worked at NASA."
           imageUrl: "pic2.png"
