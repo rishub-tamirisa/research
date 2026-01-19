@@ -50,12 +50,12 @@ params:
     profileMode:
           enabled: true
           title: Rishub Tamirisa
-          subtitle: "I'm currently working on research toward improving both AI capabilities and alignment. <br /><br />
+          subtitle: "I'm currently working on scaling autonomous science at [<u>Intology.</u>](https://www.intology.ai/) <br /><br />
           
         
-          I recently graduated from the University of Illinois at Urbana-Champaign. My prior research has focused on developing adversarially robust safeguards for LLMs, while ensuring benign capabilities can improve safely and reliably. My work has been accepted at ICLR, CVPR, NeurIPS, and ICML; also featured in *Wired*.<br /><br />
+          I graduated from the University of Illinois at Urbana-Champaign. My prior research has focused on developing adversarially robust safeguards and alignment techniques for LLMs. My work has been accepted at ICLR, CVPR, NeurIPS, and ICML; also featured in *Wired*.<br /><br />
 
-          Previously, I was a founding engineer at [<u>Mindy Group,</u>](https://mindy.com) a Sequoia-backed AI startup. I also co-led [<u>Lapis Labs,</u>](https://lapis.rocks) a student-led research group, and worked at NASA."
+          Previously, I was a founding engineer at [<u>Mindy Group,</u>](https://techcrunch.com/2024/02/13/mindy-get-backing-from-sequoia-to-build-an-email-based-ai-assistant/) a Sequoia-backed AI startup. I also co-led [<u>Lapis Labs,</u>](https://lapis.rocks) a student-led research group, and worked at NASA."
 
           
           imageUrl: "pic3.png"
