@@ -79,7 +79,7 @@ params:
         # - name: CV
         #   url: resume.pdf
         - name: Email
-          url: mailto:rishubt2@illinois.edu
+          url: mailto:rishub@intology.ai
         # - name: Location
         #   url: location/
         # - name: Office Hours
