@@ -29,8 +29,8 @@
         "icon": "substack"
       }
     ],
-    "description": "Locus autonomously plans and runs post-training experiments over multi-day runs.",
-    "result": "<strong>51.6%</strong> on PostTrainBench+, above the official human-tuned Qwen3-1.7B-Instruct checkpoint (49.4%).",
+    "description": "Locus, our autonomous AI research system, plans and runs experiments over multiple days to improve language models after their initial training.",
+    "result": "On PostTrainBench+, a benchmark for this post-training process, it achieves <strong>51.6%</strong>, exceeding the official human-tuned Qwen3-1.7B-Instruct model (49.4%).",
     "id": "scaling-post-training"
   },
   {
@@ -53,8 +53,8 @@
         "icon": "github"
       }
     ],
-    "description": "A benchmark for autonomous AI research, built around speeding up GPT-2 training.",
-    "result": "The best tested coding agent recovers <strong>9.3%</strong> of five months of human progress with 512 H100-hours.",
+    "description": "NanoGPT-Bench tests whether AI coding agents can discover ways to train GPT-2 faster, using a fixed computing budget.",
+    "result": "Given 512 hours of H100 GPU compute, the best tested agent reproduces just <strong>9.3%</strong> of the training-speed improvement achieved by human researchers over five months.",
     "id": "nanogpt-bench"
   },
   {
@@ -72,8 +72,8 @@
         "icon": "intology"
       }
     ],
-    "description": "Introducing Locus, our system for autonomous AI research over multi-day runs.",
-    "result": "<strong>1.30</strong> on RE-Bench vs. the human-expert baseline of 1.27; medals in <strong>77%</strong> of MLE-Bench Lite competitions.",
+    "description": "We introduce Locus, our autonomous AI research system, which plans, runs, and learns from experiments over multiple days.",
+    "result": "In a continuous 64-hour run on RE-Bench, a suite of AI research tasks, it scores <strong>1.30</strong> against the human-expert baseline of 1.27. It also earns medals in <strong>77%</strong> of the machine-learning competitions in MLE-Bench Lite.",
     "id": "previewing-locus"
   },
   {
