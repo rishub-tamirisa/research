@@ -1,6 +1,6 @@
 <article class="post-entry research-card{{ if .preview_url }} blog-card{{ else }} paper-card{{ end }}">
   <div class="entry-header research-copy">
-    <h2>{{ .title }}</h2>
+    <h2{{ if .preview_url }} class="blog-title"{{ end }}>{{ if .preview_url }}<span class="blog-title-icon" aria-hidden="true">{{ partial "icons/intology.svg" . }}</span>{{ end }}<span>{{ .title }}</span></h2>
     {{ if .preview_url }}
     <p class="research-byline">{{ .authors | plainify }} <span aria-hidden="true">·</span> {{ .venue | plainify }}</p>
     {{ else }}

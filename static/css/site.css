@@ -140,13 +140,18 @@ a:focus-visible, summary:focus-visible, button:focus-visible, .news-scroll:focus
 .section-spacer { height: 23.2px; }
 .news-scroll { height: 170px; overflow-y: auto; }
 table { display: block; width: 100%; border-collapse: collapse; border-spacing: 0; overflow-x: auto; word-break: keep-all; }
-.news-scroll td { padding: 5px; font-weight: 400; }
-.news-scroll td:first-child { padding-right: 20px; font-weight: 600; }
+.news-scroll table { display: table; }
+.news-scroll td { padding: 5px; font-weight: 400; vertical-align: top; }
+.news-scroll td:first-child { width: 1%; padding-right: 20px; font-weight: 600; white-space: nowrap; }
+.news-scroll td:last-child { overflow-wrap: anywhere; }
 /* Compact research cards: text sets the height; the image is cropped to fit. */
 .post-entry { position: relative; margin-bottom: var(--gap); padding: var(--gap); background: white; border-radius: var(--radius); border: 2px solid var(--border); }
 .post-entry:hover { border-color: var(--midpurple); }
 .entry-header { min-width: 0; }
 .entry-header h2 { font-size: 20px; line-height: 1.45; }
+.blog-title { display: flex; align-items: flex-start; gap: 9px; }
+.blog-title-icon { display: inline-flex; flex: 0 0 22px; margin-top: 3px; }
+.blog-title-icon svg { width: 22px; height: 24px; }
 .entry-header .authors { font-size: 15px; }
 .entry-header .links { font-size: 15px; line-height: 1.45; color: var(--secondary); }
 .entry-header .links a { color: var(--primary); }
