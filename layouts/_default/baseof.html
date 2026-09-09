@@ -22,7 +22,7 @@
   <header class="nav"><div class="logo"><a href="{{ site.Home.RelPermalink }}"><img src="{{ "favicon.ico" | relURL }}" alt="" height="18" width="18">{{ site.Title }}</a></div></header>
   {{ end }}
   <main class="main">{{ block "main" . }}{{ end }}</main>
-  <footer class="footer">&copy; {{ now.Year }} {{ site.Title }} <span>&middot; Built with <a href="https://gohugo.io/">Hugo</a>. Design adapted from <a href="https://github.com/pmichaillat/hugo-website/">PaperMod</a>.</span></footer>
+  <footer class="footer">&copy; {{ now.Year }} {{ site.Title }}</footer>
   {{ if .IsPage }}<script src="{{ "js/copy-code.js" | relURL }}" defer></script>{{ end }}
 </body>
 </html>
