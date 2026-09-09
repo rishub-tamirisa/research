@@ -273,7 +273,7 @@ table { display: block; width: 100%; border-collapse: collapse; border-spacing: 
 .timeline .research-card { margin-bottom: 0; }
 .update-text { font-size: 15px; line-height: 1.55; }
 .update-text a { text-decoration: underline; text-underline-offset: 3px; }
-.blog-title a:hover, .update-text a:hover { color: var(--darkpurple); }
+.research-copy h2 a:hover, .update-text a:hover { color: var(--darkpurple); }
 @media (max-width: 480px) {
   .timeline-item { padding-left: 20px; }
   .timeline-item:not(:last-child)::after { left: 20px; }

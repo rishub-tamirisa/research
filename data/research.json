@@ -104,7 +104,8 @@
         "icon": "x"
       }
     ],
-    "id": "utility-engineering"
+    "id": "utility-engineering",
+    "title_url": "https://arxiv.org/abs/2502.08640"
   },
   {
     "title": "Tamper-Resistant Safeguards for Open-Weight LLMs",
@@ -134,7 +135,8 @@
         "icon": "globe"
       }
     ],
-    "id": "tamper-resistance"
+    "id": "tamper-resistance",
+    "title_url": "https://arxiv.org/abs/2408.00761"
   },
   {
     "title": "Toward Robust Unlearning for LLMs",
@@ -149,7 +151,8 @@
         "icon": "document"
       }
     ],
-    "id": "robust-unlearning"
+    "id": "robust-unlearning",
+    "title_url": "https://openreview.net/forum?id=4rPzaUF6Ej"
   },
   {
     "title": "FedSelect: Personalized Federated Learning with Customized Selection of Parameters for Fine-Tuning",
@@ -169,7 +172,8 @@
         "icon": "github"
       }
     ],
-    "id": "fedselect-cvpr"
+    "id": "fedselect-cvpr",
+    "title_url": "https://arxiv.org/abs/2404.02478"
   },
   {
     "title": "The WMDP Benchmark: Measuring and Reducing Malicious Use With Unlearning",
@@ -199,7 +203,8 @@
         "icon": "globe"
       }
     ],
-    "id": "wmdp"
+    "id": "wmdp",
+    "title_url": "https://arxiv.org/abs/2403.03218"
   },
   {
     "title": "FedSelect: Customized Selection of Parameters for Fine-Tuning during Personalized Federated Learning",
@@ -214,6 +219,7 @@
         "icon": "arxiv"
       }
     ],
-    "id": "fedselect-workshop"
+    "id": "fedselect-workshop",
+    "title_url": "https://arxiv.org/abs/2306.13264"
   }
 ]
