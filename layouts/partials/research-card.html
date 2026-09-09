@@ -1,11 +1,13 @@
 <article class="post-entry research-card{{ if .preview_url }} blog-card{{ else }} paper-card{{ end }}">
   <div class="entry-header research-copy">
     <h2{{ if .preview_url }} class="blog-title"{{ end }}>{{ if .preview_url }}<span class="blog-title-icon" aria-hidden="true">{{ partial "icons/intology.svg" . }}</span>{{ end }}<span>{{ if .preview_url }}<a href="{{ .preview_url }}">{{ .title }}</a>{{ else }}{{ .title }}{{ end }}</span></h2>
-    {{ if not .preview_url }}
     <p class="authors">{{ .authors | safeHTML }}</p>
-    {{ end }}
+    {{ if .preview_url }}
+    <p class="research-result">{{ .description }}{{ with .result }} {{ . | safeHTML }}{{ end }}</p>
+    {{ else }}
     {{ with .description }}<p class="research-description">{{ . }}</p>{{ end }}
     {{ with .result }}<p class="research-result">{{ . | safeHTML }}</p>{{ end }}
+    {{ end }}
     <div class="research-meta">
       {{ if not .preview_url }}<p class="research-venue">{{ .venue | safeHTML }}</p>{{ end }}
       <div class="links resource-links">
