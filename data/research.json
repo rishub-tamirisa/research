@@ -52,6 +52,22 @@
     ]
   },
   {
+    "title": "Previewing Locus",
+    "authors": "Intology",
+    "image": "images/research/previewing-locus-banner.jpg",
+    "alt": "Bridge artwork — Previewing Locus",
+    "source": "https://intology.ai/brand/visual/blog-2-bridge.jpg",
+    "preview_url": "https://intology.ai/blog/previewing-locus",
+    "venue": "<span class=\"venue\">November 2025</span>",
+    "links": [
+      {
+        "label": "blog",
+        "url": "https://intology.ai/blog/previewing-locus",
+        "icon": "intology"
+      }
+    ]
+  },
+  {
     "title": "Utility Engineering: Analyzing and Controlling Emergent Value Systems in AIs",
     "authors": "Mantas Mazeika, Xuwang Yin, <u><strong>Rishub Tamirisa</strong></u>, Jaehyuk Lim, Bruce W. Lee, Richard Ren, Long Phan, Norman Mu, Adam Khoja, Oliver Zhang, Dan Hendrycks",
     "image": "papers/paper4/EV.png",
