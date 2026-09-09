@@ -1,29 +1,5 @@
 ---
 title: "The WMDP Benchmark: Measuring and Reducing Malicious Use With Unlearning" 
-# date: 2015-12-01
-# # tags: ["keyword 1","keyword 2","keyword 4"]
-# author: [
-#     "Nathaniel Li", "Alexander Pan", "Anjali Gopal", "Summer Yue", "Daniel Berrios",
-#     "Alice Gatti", "Justin D. Li", "Ann-Kathrin Dombrowski", "Shashwat Goel", "Long Phan",
-#     "Gabriel Mukobi", "Nathan Helm-Burger", "Rassin Lababidi", "Lennart Justen",
-#     "Andrew B. Liu", "Michael Chen", "Isabelle Barrass", "Oliver Zhang", "Xiaoyuan Zhu",
-#     "Rishub Tamirisa", "Bhrugu Bharathi", "Adam Khoja", "Ariel Herbert-Voss",
-#     "Cort B. Breuer", "Andy Zou", "Mantas Mazeika", "Zifan Wang", "Palash Oswal",
-#     "Weiran Liu", "Adam A. Hunt", "Justin Tienken-Harder", "Kevin Y. Shih", "Kemper Talley",
-#     "John Guan", "Russell Kaplan", "Ian Steneker", "David Campbell", "Brad Jokubaitis",
-#     "Alex Levinson", "Jean Wang", "William Qian", "Kallol Krishna Karmakar", "Steven Basart",
-#     "Stephen Fitz", "Mindy Levine", "Ponnurangam Kumaraguru", "Uday Tupakula", "Vijay Varadharajan",
-#     "Yan Shoshitaishvili", "Jimmy Ba", "Kevin M. Esvelt", "Alexandr Wang", "Dan Hendrycks"
-# ]
-# description: "This paper shows other things. Published in Journal Name, 2015." 
-# summary: "This paper shows other things using other techniques and different data." 
-# cover:
-#     image: "paper2.png"
-#     alt: "Image caption"
-#     relative: false
-# editPost:
-#     URL: "https://doi.org/10.1073/pnas.1816454115"
-#     Text: "Other Journal Name"
 
 ---
 
@@ -33,7 +9,6 @@ title: "The WMDP Benchmark: Measuring and Reducing Malicious Use With Unlearning
 
 + [Paper](https://arxiv.org/pdf/2403.03218.pdf)
 + [Project Page (with code & data)](https://www.wmdp.ai/)
-<!-- + [Online appendix](appendix2.pdf) -->
 
 ---
 

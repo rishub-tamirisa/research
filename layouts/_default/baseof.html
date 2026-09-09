@@ -1,24 +1,28 @@
-<!DOCTYPE html>
-<html lang="{{ site.Language }}" dir="{{ .Language.LanguageDirection | default "auto" }}">
-
+<!doctype html>
+<html lang="en">
 <head>
-    {{- partial "head.html" . }}
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ if not .IsHome }}{{ .Title }} | {{ end }}{{ site.Title }}</title>
+  <meta name="description" content="{{ .Description | default site.Params.description }}">
+  <meta name="author" content="{{ site.Params.author }}">
+  <link rel="canonical" href="{{ .Permalink }}">
+  <link rel="icon" href="{{ "favicon.ico" | relURL }}">
+  <link rel="apple-touch-icon" href="{{ "apple-touch-icon.png" | relURL }}">
+  <link rel="stylesheet" href="{{ "css/site.css" | relURL }}?v={{ readFile "static/css/site.css" | md5 }}">
+  {{ with .OutputFormats.Get "RSS" }}<link rel="alternate" type="application/rss+xml" title="{{ site.Title }}" href="{{ .Permalink }}">{{ end }}
+  <meta property="og:title" content="{{ .Title | default site.Title }}">
+  <meta property="og:description" content="{{ .Description | default site.Params.description }}">
+  <meta property="og:url" content="{{ .Permalink }}">
+  <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+  <meta name="twitter:card" content="summary">
 </head>
-
-<body class="
-{{- if (or (ne .Kind `page` ) (eq .Layout `archives`) (eq .Layout `search`)) -}}
-{{- print "list" -}}
-{{- end -}}
-{{- if eq site.Params.defaultTheme `dark` -}}
-{{- print " dark" }}
-{{- end -}}
-" id="top">
-    {{- if not .IsHome  }}
-    {{- partialCached "header.html" . .Page -}}
-    {{- end }}
-    <main class="main">
-        {{- block "main" . }}{{ end }}
-    </main>
-    {{ partialCached "footer.html" . .Layout .Kind (.Param "hideFooter") (.Param "ShowCodeCopyButtons") -}}
+<body{{ if not .IsPage }} class="list"{{ end }} id="top">
+  {{ if not .IsHome }}
+  <header class="nav"><div class="logo"><a href="{{ site.Home.RelPermalink }}"><img src="{{ "favicon.ico" | relURL }}" alt="" height="18" width="18">{{ site.Title }}</a></div></header>
+  {{ end }}
+  <main class="main">{{ block "main" . }}{{ end }}</main>
+  <footer class="footer">&copy; {{ now.Year }} {{ site.Title }} <span>&middot; Built with <a href="https://gohugo.io/">Hugo</a>. Design adapted from <a href="https://github.com/pmichaillat/hugo-website/">PaperMod</a>.</span></footer>
+  {{ if .IsPage }}<script src="{{ "js/copy-code.js" | relURL }}" defer></script>{{ end }}
 </body>
 </html>

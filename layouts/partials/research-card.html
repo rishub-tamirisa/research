@@ -1,0 +1,23 @@
+<article class="post-entry research-card{{ if .preview_url }} blog-card{{ else }} paper-card{{ end }}">
+  <div class="entry-header research-copy">
+    <h2>{{ .title }}</h2>
+    {{ if .preview_url }}
+    <p class="research-byline">{{ .authors | plainify }} <span aria-hidden="true">·</span> {{ .venue | plainify }}</p>
+    {{ else }}
+    <p class="authors">{{ .authors | safeHTML }}</p>
+    {{ end }}
+    {{ with .description }}<p class="research-description">{{ . }}</p>{{ end }}
+    <div class="research-meta">
+      {{ if not .preview_url }}<p class="research-venue">{{ .venue | safeHTML }}</p>{{ end }}
+      <div class="links resource-links">
+      {{ range .links }}
+      <a href="{{ .url }}"{{ if eq .icon "substack" }} class="coverage-link"{{ end }}{{ if in (slice "wired" "time") .icon }} aria-label="{{ .label }}"{{ end }}><span class="resource-icon resource-icon-{{ .icon }}" aria-hidden="true">{{ partial (printf "icons/%s.svg" .icon) . }}</span>{{ if not (in (slice "wired" "time") .icon) }}<span>{{ .label }}</span>{{ end }}</a>
+      {{ end }}
+      </div>
+    </div>
+  </div>
+  <a class="research-visual{{ if not .preview_url }} paper-visual{{ end }}" href="{{ with .preview_url }}{{ . }}{{ else }}{{ .image | relURL }}{{ end }}"
+     aria-label="{{ if .preview_url }}Read{{ else }}View full figure for{{ end }} {{ .title }}">
+    <img loading="lazy" src="{{ .image | relURL }}" alt="{{ .alt }}">
+  </a>
+</article>

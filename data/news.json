@@ -1,0 +1,66 @@
+[
+  {
+    "date": "Aug 3rd, 2026.",
+    "text": "We release results from an updated version of Locus with SOTA post-training capabilities <u><a href=\"https://intology.ai/blog/scaling-automated-post-training\">blog post.</a></u>"
+  },
+  {
+    "date": "May 19th, 2026.",
+    "text": "We release NanoGPT-Bench, a benchmark for evaluating autonomous AI research. <u><a href=\"https://intology.ai/blog/nanogpt-bench\">blog post.</a></u>"
+  },
+  {
+    "date": "Nov 19th, 2025.",
+    "text": "We announce Locus, which outperforms experts on RE-Bench. <u><a href=\"https://www.intology.ai/blog/previewing-locus\">blog post.</a></u>"
+  },
+  {
+    "date": "Sep 18th, 2025.",
+    "text": "Our work on Utility Engineering is accepted as a spotlight at <i>NeurIPS 2025</i>."
+  },
+  {
+    "date": "Sep 12th, 2025.",
+    "text": "I'll be joining <u><a href=\"https://www.intology.ai/\">Intology</a></u> to work on scaling autonomous AI research."
+  },
+  {
+    "date": "Feb 11th, 2025.",
+    "text": "We release our work on <u><a href=\"https://arxiv.org/pdf/2502.08640\">Emergent Value Systems in AIs</a></u>."
+  },
+  {
+    "date": "Jan 22nd, 2025.",
+    "text": "Our work on Tamper-Resistant LLM Safeguards is accepted at <i>ICLR 2025</i>."
+  },
+  {
+    "date": "Aug 2nd, 2024.",
+    "text": "Our work on Tamper-Resistant Safeguards is featured in <i>Wired</i>. <u><a href=\"https://www.wired.com/story/center-for-ai-safety-open-source-llm-safeguards/\">article.</a></u>"
+  },
+  {
+    "date": "May 20th, 2024.",
+    "text": "I'll be joining the <u><a href=\"https://safe.ai\">Center for AI Safety</a></u> as a Research Engineer Intern."
+  },
+  {
+    "date": "May 1st, 2024.",
+    "text": "WMDP is accepted at <i>ICML 2024</i>."
+  },
+  {
+    "date": "March 5th, 2024.",
+    "text": "WMDP is featured in <i>TIME</i>. <u><a href=\"https://time.com/6878893/ai-artificial-intelligence-dangerous-knowledge/\">article.</a></u>"
+  },
+  {
+    "date": "March 4th, 2024.",
+    "text": "Our work on Robust Unlearning is accepted at SeT LLM @ <i>ICLR 2024.</i>"
+  },
+  {
+    "date": "February 26th, 2024.",
+    "text": "FedSelect is accepted at <i>CVPR 2024</i>."
+  },
+  {
+    "date": "February 13th, 2024.",
+    "text": "Announcing our $6M seed round and the launch of Mindy. <u><a href=\"https://techcrunch.com/2024/02/13/mindy-get-backing-from-sequoia-to-build-an-email-based-ai-assistant/\">article.</a></u>"
+  },
+  {
+    "date": "October 12th, 2023.",
+    "text": "I gave a talk internally at Google Research. <u><a href=\"https://www.linkedin.com/feed/update/urn:li:activity:7118320475788750848/\">post.</a></u>"
+  },
+  {
+    "date": "June 19th, 2023.",
+    "text": "FedSelect is accepted at FL @ <i>ICML 2023</i>."
+  }
+]

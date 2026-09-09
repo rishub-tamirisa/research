@@ -1,118 +1,15 @@
-baseURL: "https://pascalmichaillat.org/hugo-website/" 
+baseURL: "https://rishub-tamirisa.github.io/research/"
+languageCode: en-us
 title: Rishub Tamirisa
-paginate: 20
-theme: PaperMod
-
-enableInlineShortcodes: true
 enableRobotsTXT: true
-
 taxonomies:
-    tag: tags
-
-# menu:
-#     main:
-        # - name: Papers
-        #   url: papers/
-        #   weight: 1
-        # - name: Courses
-        #   url: courses/
-        #   weight: 2
-        # - name: Data
-        #   url: data/
-        #   weight: 3 
-        # - name: Newsletter
-        #   url: https://pmichaillat.substack.com
-        #   weight: 4
-
+  tag: tags
 params:
-    description: "I'm an AI researcher currently working on research toward improving both AI capabilities and alignment."
-    author: Rishub Tamirisa
-    # googleAnalyticsID: "G-XXXXX"
-    DateFormat: "January 2006"
-    defaultTheme: light
-    hideFooter: false
-    disableThemeToggle: true
-    ShowShareButtons: false
-    ShowReadingTime: false
-    disableSpecial1stPost: true
-    disableAnchoredHeadings: true
-    ShowPostNavLinks: false
-    ShowBreadCrumbs: false
-    ShowCodeCopyButtons: true
-    ShowRssButtonInSectionTermList: false
-    ShowToc: false
-    disableScrollToTop: true
-    TocOpen: true
-    ShowWordCount: false
-    UseHugoToc: true
-    comments: false
-    math: true
-    profileMode:
-          enabled: true
-          title: Rishub Tamirisa
-          subtitle: "I'm currently working on scaling autonomous science at [<u>Intology.</u>](https://www.intology.ai/) <br /><br />
-          
-        
-          I graduated from the University of Illinois at Urbana-Champaign. My prior research has focused on developing adversarially robust safeguards and alignment techniques for LLMs. My work has been accepted at ICLR, CVPR, NeurIPS, and ICML; also featured in *Wired*.<br /><br />
-
-          Previously, I was a founding engineer at [<u>Mindy Group,</u>](https://techcrunch.com/2024/02/13/mindy-get-backing-from-sequoia-to-build-an-email-based-ai-assistant/) a Sequoia-backed AI startup. I also co-led [<u>Lapis Labs,</u>](https://lapis.rocks) a student-led research group, and worked at NASA."
-
-          
-          imageUrl: "pic3.png"
-          imageWidth: 160
-          imageHeight: 160
-          imageTitle: Rishub Tamirisa
-          # buttons:
-          #   - name: Papers
-          #     url: papers/
-            # - name: Courses
-            #   url: courses/
-            # - name: Data
-            #   url: data/
-            # - name: Newsletter
-            #   url: https://pmichaillat.substack.com
-            # - name: Tags
-            #   url: tags/
-            # - name: Archive
-            #   url: archive/
-    socialIcons:
-        # - name: CV
-        #   url: resume.pdf
-        - name: Email
-          url: mailto:rishub@intology.ai
-        # - name: Location
-        #   url: location/
-        # - name: Office Hours
-        #   url: officehours/
-        - name: Google Scholar
-          url: https://scholar.google.com/citations?user=mwqUAxwAAAAJ&hl=en
-        # - name: YouTube
-        #   url: https://www.youtube.com/@pmichaillat
-        - name: GitHub
-          url: https://github.com/rishub-tamirisa
-        - name: Linkedin
-          url: https://www.linkedin.com/in/rishubtamirisa/
-        - name: Twitter
-          url: https://twitter.com/rishub_t
-    assets:
-        disableHLJS: true
-        disableScrollBarStyle: true
-    cover:
-        hiddenInList: false
-        hiddenInSingle: true
-    label:
-      text: "Rishub Tamirisa"
-      icon: favicon.ico
-      iconHeight: 18
-
+  description: "I'm an AI researcher currently working on research toward improving both AI capabilities and alignment."
+  author: Rishub Tamirisa
 markup:
-    goldmark:
-        renderer:
-            unsafe: true
-    highlight:
-        guessSyntax: true
-        style: autumn 
-    tableOfContents:
-        endLevel: 2
-        ordered: false
-        startLevel: 2
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    style: autumn
