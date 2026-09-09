@@ -30,7 +30,7 @@
       }
     ],
     "description": "Locus, our autonomous AI research system, plans and runs experiments over multiple days to improve language models after their initial training.",
-    "result": "On PostTrainBench+, a benchmark for this post-training process, it achieves <strong>51.6%</strong>, exceeding the official human-tuned Qwen3-1.7B-Instruct model (49.4%).",
+    "result": "On PostTrainBench+, a benchmark for this post-training process, it achieves <strong>51.6%</strong>, exceeding the official human-tuned Qwen3-1.7B-Instruct model (49.4%). Also, an LLM fully post-trained by Locus is currently running in enterprise production.",
     "id": "scaling-post-training"
   },
   {
