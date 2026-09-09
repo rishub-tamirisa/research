@@ -54,7 +54,7 @@
       }
     ],
     "description": "NanoGPT-Bench tests whether AI coding agents can discover ways to train GPT-2 faster, using a fixed computing budget.",
-    "result": "Given 512 hours of H100 GPU compute, the best tested agent reproduces just <strong>9.3%</strong> of the training-speed improvement achieved by human researchers over five months.",
+    "result": "Given 512 hours of H100 GPU compute, existing SWE coding agents reproduce just <strong>9.3%</strong> of the training-speed improvement achieved by human researchers over five months.",
     "id": "nanogpt-bench"
   },
   {
