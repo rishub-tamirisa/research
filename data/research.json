@@ -28,7 +28,10 @@
         "url": "https://importai.substack.com/p/import-ai-468-23-rsi-ideas-posttrainbench",
         "icon": "substack"
       }
-    ]
+    ],
+    "description": "Locus autonomously plans and runs post-training experiments over multi-day runs.",
+    "result": "<strong>51.6%</strong> on PostTrainBench+, above the official human-tuned Qwen3-1.7B-Instruct checkpoint (49.4%).",
+    "id": "scaling-post-training"
   },
   {
     "title": "NanoGPT-Bench: Can Coding Agents Do Research?",
@@ -49,7 +52,10 @@
         "url": "https://github.com/IntologyAI/NanoGPT-Bench",
         "icon": "github"
       }
-    ]
+    ],
+    "description": "A benchmark for autonomous AI research, built around speeding up GPT-2 training.",
+    "result": "The best tested coding agent recovers <strong>9.3%</strong> of five months of human progress with 512 H100-hours.",
+    "id": "nanogpt-bench"
   },
   {
     "title": "Previewing Locus",
@@ -65,14 +71,17 @@
         "url": "https://intology.ai/blog/previewing-locus",
         "icon": "intology"
       }
-    ]
+    ],
+    "description": "Introducing Locus, our system for autonomous AI research over multi-day runs.",
+    "result": "<strong>1.30</strong> on RE-Bench vs. the human-expert baseline of 1.27; medals in <strong>77%</strong> of MLE-Bench Lite competitions.",
+    "id": "previewing-locus"
   },
   {
     "title": "Utility Engineering: Analyzing and Controlling Emergent Value Systems in AIs",
     "authors": "Mantas Mazeika, Xuwang Yin, <u><strong>Rishub Tamirisa</strong></u>, Jaehyuk Lim, Bruce W. Lee, Richard Ren, Long Phan, Norman Mu, Adam Khoja, Oliver Zhang, Dan Hendrycks",
     "image": "papers/paper4/EV.png",
     "alt": "Utility Engineering: Analyzing and Controlling Emergent Value Systems in AIs — research overview",
-    "venue": "<span style=\"color: rgb(0, 162, 255);\">NeurIPS 2025</span> <span style=\"color: rgb(255, 0, 0);\">(Spotlight)</span>",
+    "venue": "<span class=\"venue\">NeurIPS 2025</span> <span class=\"venue-spotlight\">(Spotlight)</span>",
     "links": [
       {
         "label": "arxiv",
@@ -94,14 +103,15 @@
         "url": "https://x.com/DanHendrycks/status/1889344074098057439",
         "icon": "x"
       }
-    ]
+    ],
+    "id": "utility-engineering"
   },
   {
     "title": "Tamper-Resistant Safeguards for Open-Weight LLMs",
     "authors": "<u><strong>Rishub Tamirisa</strong></u>*, Bhrugu Bharathi*, Long Phan, Alice Gatti, Tarun Suresh, Maxwell Lin, Justin Wang, Rowan Wang, Ron Arel, Andy Zou, Dawn Song, Bo Li, Dan Hendrycks, Mantas Mazeika",
     "image": "papers/paper4/TRS.png",
     "alt": "Tamper-Resistant Safeguards for Open-Weight LLMs — research overview",
-    "venue": "<span style=\"color: rgb(0, 162, 255);\">ICLR 2025</span>",
+    "venue": "<span class=\"venue\">ICLR 2025</span>",
     "links": [
       {
         "label": "arxiv",
@@ -123,28 +133,30 @@
         "url": "https://www.tamper-resistant-safeguards.com/",
         "icon": "globe"
       }
-    ]
+    ],
+    "id": "tamper-resistance"
   },
   {
     "title": "Toward Robust Unlearning for LLMs",
     "authors": "<u><strong>Rishub Tamirisa</strong></u>*, Bhrugu Bharathi*, Andy Zhou, Bo Li, Mantas Mazeika",
     "image": "papers/paper1/paper1.png",
     "alt": "Toward Robust Unlearning for LLMs — research overview",
-    "venue": "Secure and Trustworthy LLMs @ <span style=\"color: rgb(0, 162, 255);\">ICLR 2024</span>",
+    "venue": "Secure and Trustworthy LLMs @ <span class=\"venue\">ICLR 2024</span>",
     "links": [
       {
         "label": "paper",
         "url": "https://openreview.net/pdf?id=4rPzaUF6Ej",
         "icon": "document"
       }
-    ]
+    ],
+    "id": "robust-unlearning"
   },
   {
     "title": "FedSelect: Personalized Federated Learning with Customized Selection of Parameters for Fine-Tuning",
     "authors": "<u><strong>Rishub Tamirisa</strong></u>, Chulin Xie, Wenxuan Bao, Andy Zhou, Ron Arel, Aviv Shamsian",
     "image": "papers/paper3/paper3.png",
     "alt": "FedSelect: Personalized Federated Learning with Customized Selection of Parameters for Fine-Tuning — research overview",
-    "venue": "<span style=\"color: rgb(0, 162, 255);\">CVPR 2024</span>",
+    "venue": "<span class=\"venue\">CVPR 2024</span>",
     "links": [
       {
         "label": "arxiv",
@@ -156,14 +168,15 @@
         "url": "https://github.com/lapisrocks/fedselect",
         "icon": "github"
       }
-    ]
+    ],
+    "id": "fedselect-cvpr"
   },
   {
     "title": "The WMDP Benchmark: Measuring and Reducing Malicious Use With Unlearning",
     "authors": "Nathaniel Li*, Alexander Pan*, Anjali Gopal, Summer Yue, Daniel Berrios, Alice Gatti, Justin D. Li, Ann-Kathrin Dombrowski, Shashwat Goel, Long Phan, Gabriel Mukobi, Nathan Helm-Burger, Rassin Lababidi, Lennart Justen, Andrew B. Liu, Michael Chen, Isabelle Barrass, Oliver Zhang, Xiaoyuan Zhu, <u><strong>Rishub Tamirisa</strong></u>, Bhrugu Bharathi, Adam Khoja, Ariel Herbert-Voss, Cort B. Breuer, Andy Zou, Mantas Mazeika, Zifan Wang, Palash Oswal, Weiran Liu, Adam A. Hunt, Justin Tienken-Harder, Kevin Y. Shih, Kemper Talley, John Guan, Russell Kaplan, Ian Steneker, David Campbell, Brad Jokubaitis, Alex Levinson, Jean Wang, William Qian, Kallol Krishna Karmakar, Steven Basart, Stephen Fitz, Mindy Levine, Ponnurangam Kumaraguru, Uday Tupakula, Vijay Varadharajan, Yan Shoshitaishvili, Jimmy Ba, Kevin M. Esvelt, Alexandr Wang, Dan Hendrycks",
     "image": "papers/paper2/paper2.png",
     "alt": "The WMDP Benchmark: Measuring and Reducing Malicious Use With Unlearning — research overview",
-    "venue": "<span style=\"color: rgb(0, 162, 255);\">ICML 2024</span>",
+    "venue": "<span class=\"venue\">ICML 2024</span>",
     "links": [
       {
         "label": "arxiv",
@@ -185,20 +198,22 @@
         "url": "https://www.wmdp.ai/",
         "icon": "globe"
       }
-    ]
+    ],
+    "id": "wmdp"
   },
   {
     "title": "FedSelect: Customized Selection of Parameters for Fine-Tuning during Personalized Federated Learning",
     "authors": "<u><strong>Rishub Tamirisa</strong></u>, John Won, Chengjun Lu, Ron Arel, Andy Zhou",
     "image": "papers/paper3/paper3wv2.png",
     "alt": "FedSelect: Customized Selection of Parameters for Fine-Tuning during Personalized Federated Learning — research overview",
-    "venue": "Federated Learning @ <span style=\"color: rgb(0, 162, 255);\">ICML 2023</span>",
+    "venue": "Federated Learning @ <span class=\"venue\">ICML 2023</span>",
     "links": [
       {
         "label": "arxiv",
         "url": "https://arxiv.org/abs/2306.13264",
         "icon": "arxiv"
       }
-    ]
+    ],
+    "id": "fedselect-workshop"
   }
 ]

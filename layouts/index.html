@@ -1,33 +1,41 @@
 {{ define "main" }}
 <div class="profile">
-  <div class="profile_inner">
+  <aside class="identity">
     {{ with site.Data.profile }}
-    <img draggable="false" src="{{ .image | relURL }}" alt="{{ .name }}" title="{{ .name }}" height="160" width="160">
-    <h1>{{ .name }}</h1>
-    <span>{{ .bio | markdownify }}</span>
-    <nav class="social-icons" aria-label="Social links">
-      {{- range .socials }}
-      <a href="{{ .url }}" target="_blank" rel="noopener noreferrer me" title="{{ .name }}" aria-label="{{ .name }}">{{ partial (printf "icons/%s.svg" .icon) . }}</a>
-      {{- end }}
-    </nav>
+    <img class="portrait" draggable="false" src="{{ .image | relURL }}" alt="{{ .name }}" height="144" width="144">
+    <div class="identity-details">
+      <h1>{{ .name }}</h1>
+      <nav class="social-icons" aria-label="Social links">
+        {{ range .socials }}
+        <a href="{{ .url }}" target="_blank" rel="noopener noreferrer me" title="{{ .name }}" aria-label="{{ .name }}">{{ partial (printf "icons/%s.svg" .icon) . }}</a>
+        {{ end }}
+      </nav>
+    </div>
     {{ end }}
-    <div class="section-spacer" aria-hidden="true"></div>
-    <section aria-labelledby="news-heading">
-      <h2 id="news-heading">News</h2>
+  </aside>
+  <div class="profile_inner">
+    <div class="biography">{{ site.Data.profile.bio | markdownify }}</div>
+    <section aria-labelledby="timeline-heading">
+      <h2 id="timeline-heading">Research &amp; Updates</h2>
       <hr>
-      <div class="section-spacer" aria-hidden="true"></div>
-      <div class="news-scroll" tabindex="0" role="region" aria-label="News archive">
-        <table><tbody>
-          {{ range site.Data.news }}<tr><td>{{ .date }}</td><td>{{ .text | safeHTML }}</td></tr>{{ end }}
-        </tbody></table>
-      </div>
-    </section>
-    <div class="section-spacer" aria-hidden="true"></div>
-    <section aria-labelledby="research-heading">
-      <h2 id="research-heading">Research</h2>
-      <hr>
-      <div class="section-spacer" aria-hidden="true"></div>
-      {{ range site.Data.research }}{{ partial "research-card.html" . }}{{ end }}
+      <ol class="timeline">
+        {{ range site.Data.news }}
+        {{ $entry := . }}
+        {{ $work := false }}
+        {{ with .research_id }}{{ $work = index (where site.Data.research "id" .) 0 }}{{ end }}
+        <li class="timeline-item{{ if $work }} timeline-work{{ end }}">
+          <div class="timeline-meta">
+            <span class="timeline-date">{{ .date }}</span>
+            <span class="timeline-kind">{{ if $work }}{{ if $work.preview_url }}Research{{ else }}Publication{{ end }}{{ else }}News{{ end }}</span>
+          </div>
+          {{ if $work }}
+            {{ partial "research-card.html" $work }}
+          {{ else }}
+            <p class="update-text">{{ $entry.text | safeHTML }}</p>
+          {{ end }}
+        </li>
+        {{ end }}
+      </ol>
     </section>
   </div>
 </div>

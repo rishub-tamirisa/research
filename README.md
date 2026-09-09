@@ -1,8 +1,9 @@
 # Rishub Tamirisa's website
 
-A small, theme-free Hugo site. The original Signifier typography, layout, news
-scroller, and compact research cards with visuals on the right are retained without PaperMod, Sass,
-Node packages, or a client-side framework.
+A small, theme-free Hugo site using the original local Signifier fonts.
+The homepage interweaves illustrated blog releases, publications, and announcements
+in a single chronological timeline, with full authors and resource links.
+All content is visible on one page, without a client-side framework.
 
 ## Preview locally
 
@@ -17,10 +18,10 @@ Open http://localhost:1313/. Hugo reloads the preview as files change.
 ## Edit content
 
 - `data/profile.json`: biography, portrait, and social links.
-- `data/news.json`: news in display order. Each item has a date and text.
+- `data/news.json`: news in display order. Each item has a date and text. Use `research_id` to embed the corresponding research entry with its artwork and links. Paper entries use their initial release date, with conference names displayed on the paper itself; do not add separate acceptance events. Optional `date_source` records the date reference. Keep the entries in reverse chronological order.
 - `data/research.json`: selected research in display order. Copy an entry to add
   work; specify the title, authors, venue and a list of links (`label`, `url`, and `icon`), image, and descriptive
-  alt text. Optional `preview_url` links the visual to a blog; paper visuals link to the full figure. Full author lists are always visible in slightly smaller type. Optional `description` adds a concise explanation below the authors.
+  alt text. Optional `preview_url` links the visual to a blog; paper visuals link to the full figure. Full author lists are always visible in slightly smaller type. Optional `description` and `result` add context and findings; blog entries have an `id` referenced by the news data.
 - `static/images/research/`: new preview figures. Paths in the data are relative
   to the site root, so both project URLs and custom domains work.
 - `content/papers/`: existing paper pages and their downloads, with URLs preserved.
@@ -49,12 +50,15 @@ provided by GitHub Pages, including a custom domain if one is configured.
 
 ## Preview figure sources
 
-Blog artwork fills the right-hand column; paper figures fit completely inside it with a small white margin. Images do not increase the text height. The Intology cards use the same artistic banners as the original blogs:
+Blog artwork appears alongside the text on larger screens and as a wide banner on phones. Paper figures remain uncropped. The Intology entries use the same artistic banners as the original blogs:
 
 - [NanoGPT-Bench banner](https://intology.ai/brand/visual/blog-1-roots.jpg)
   — [blog](https://intology.ai/blog/nanogpt-bench), May 19, 2026.
 - [Scaling Automated Post-Training banner](https://intology.ai/brand/visual/blog-4-spheres.jpg)
   — [blog](https://intology.ai/blog/scaling-automated-post-training), August 3, 2026.
+
+- [Previewing Locus banner](https://intology.ai/brand/visual/blog-2-bridge.jpg)
+  — [blog](https://intology.ai/blog/previewing-locus), November 19, 2025.
 
 Earlier papers use their complete, uncropped original figures. Click a paper's visual to see the full,
 uncropped image. Banner sources are recorded in the corresponding research data.

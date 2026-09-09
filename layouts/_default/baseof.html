@@ -17,7 +17,7 @@
   <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
   <meta name="twitter:card" content="summary">
 </head>
-<body{{ if not .IsPage }} class="list"{{ end }} id="top">
+<body{{ if not .IsPage }} class="list{{ if .IsHome }} home{{ end }}"{{ end }} id="top">
   {{ if not .IsHome }}
   <header class="nav"><div class="logo"><a href="{{ site.Home.RelPermalink }}"><img src="{{ "favicon.ico" | relURL }}" alt="" height="18" width="18">{{ site.Title }}</a></div></header>
   {{ end }}
